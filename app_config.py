@@ -53,17 +53,17 @@ authomatic = Authomatic(authomatic_config, os.environ.get('AUTHOMATIC_SALT'))
 DEPLOYMENT
 """
 PRODUCTION_S3_BUCKET = {
-    'bucket_name': 'apps.npr.org',
+    'bucket_name': 'apps.sw',
     'region': 'us-east-1'
 }
 
 STAGING_S3_BUCKET = {
-    'bucket_name': 'stage-apps.npr.org',
+    'bucket_name': 'sw-stg',
     'region': 'us-east-1'
 }
 
 ASSETS_S3_BUCKET = {
-    'bucket_name': 'assets.apps.npr.org',
+    'bucket_name': 'sw-asset',
     'region': 'us-east-1'
 }
 
